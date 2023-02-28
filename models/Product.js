@@ -28,7 +28,7 @@ Product.init(
 			type: DataTypes.INTEGER,
 			allowNull: false,
 			default: 10,
-			validate: { isInteger: true },
+			validate: { isInt: true },
 		},
 		catergory_id: {
 			type: DataTypes.INTEGER,
